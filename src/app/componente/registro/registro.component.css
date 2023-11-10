@@ -1,0 +1,88 @@
+body {
+    background-size: 100% auto;
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    animation: water 10s infinite linear;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes water {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(13, 219, 237, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#imagenIzquierda, #imagenDerecha {
+    max-width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .forgot-password {
+    font-size: 15px;
+}
+
+.form-group button {
+    background-color: #ff4400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group .create-account {
+    margin-top: 10px;
+}
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: brown;
+    padding-top: 20px;
+}
